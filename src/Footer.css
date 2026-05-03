@@ -1,0 +1,15 @@
+.footer {
+  background-color: #0a6e31; /* vert SénTransport */
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  margin-top: 40px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* effet au survol (optionnel mais stylé) */
+.footer:hover {
+  background-color: #095a28;
+}

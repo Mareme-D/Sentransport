@@ -1,25 +1,23 @@
+
 .App {
   font-family: Arial, sans-serif;
   min-height: 100vh;
-  background-color: #f5f7fa; /* fond clair */
+  background-color: #f5f6fa;
+  display: flex;
+  flex-direction: column;
 }
 
 .contenu {
   padding: 20px;
   max-width: 800px;
-  margin: 30px auto;
-  background-color: white; /* carte blanche */
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+  flex: 1;
 }
 
-/* Texte principal */
-h1 {
-  color: #0a6e31; /* vert Sénégal */
-}
-
-p {
-  color: #333;
-  font-size: 16px;
-  line-height: 1.5;
+@media (max-width: 600px) {
+  .contenu {
+    padding: 12px;
+  }
 }
